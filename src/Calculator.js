@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Calculator.css'; // Import the CSS file
+import './Calculator.css'; 
 
 const Calculator = () => { 
   const [number, setNumber] = useState(""); 
@@ -59,7 +59,7 @@ const Calculator = () => {
   }; 
 
   return ( 
-    <div className="calculator"> {/* Apply the calculator class */} 
+    <div className="calculator"> 
       <input type="text" id="screen_input" value={number} readOnly /> 
       <div> 
         <button onClick={() => handleNumberClick("1")}>1</button> 
