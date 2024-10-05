@@ -1,10 +1,9 @@
 import React from 'react';
-import Calculator from './Calculator'; // Import Calculator, not Header
-
+import Calculator from './Calculator'; 
 function App() {
   return (
     <div className="App">
-      <Calculator /> {/* Use the Calculator component */}
+      <Calculator /> 
     </div>
   );
 }
